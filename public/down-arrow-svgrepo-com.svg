@@ -1,0 +1,21 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 330 330"
+  class="inline-block rounded-full px-6 py-2 font-semibold shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[color:var(--theme-purple)]"
+>
+  <defs>
+    <!-- Define a linear gradient from your theme purple to theme blue -->
+    <linearGradient id="downArrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="var(--theme-purple)" />
+      <stop offset="100%" stop-color="var(--theme-blue)" />
+    </linearGradient>
+  </defs>
+  <!-- Use the gradient as the fill for the arrow path -->
+  <path
+    fill="url(#downArrowGradient)"
+    d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+      c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150
+      c2.813,2.813,6.628,4.393,10.606,4.393s7.794-1.581,10.606-4.394l149.996-150
+      C331.465,94.749,331.465,85.251,325.607,79.393z"
+  />
+</svg>
